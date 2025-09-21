@@ -1,0 +1,31 @@
+# Environnements
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Dépendances
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+
+# Build / Logs
+dist/
+build/
+.next/
+.cache/
+*.log
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Tests
+.coverage
+.pytest_cache/
+coverage/

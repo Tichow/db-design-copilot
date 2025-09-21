@@ -3,8 +3,8 @@ from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 from dotenv import load_dotenv
 
-from rag.ingest import router as ingest_router
-from rag.search import router as search_router
+from .rag.ingest import router as ingest_router
+from .rag.search import router as search_router
 
 load_dotenv()
 

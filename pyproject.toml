@@ -18,3 +18,9 @@ dependencies = [
 
 [tool.pytest.ini_options]
 pythonpath = ["apps/api"]
+
+[tool.setuptools]
+packages = ["apps"]
+
+[tool.setuptools.package-dir]
+apps = "apps"
